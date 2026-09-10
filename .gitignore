@@ -47,8 +47,3 @@ app.*.map.json
 # Widget Preview related
 .widget_preview/
 
-# Private / sensitive files
-.env
-*.jks
-*.keystore
-google-services.json
