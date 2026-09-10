@@ -1,17 +1,67 @@
 # connect_call
 
-A new Flutter project.
+# ConnectCall
 
-## Getting Started
+ConnectCall is a Flutter-based 1-to-1 audio and video calling application.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- User registration and login
+- Firebase Authentication
+- User profiles
+- Profile photo
+- User search
+- Online/offline status
+- 1-to-1 audio calling
+- 1-to-1 video calling
+- Incoming call notifications
+- Accept/reject calls
+- Mute microphone
+- Camera on/off
+- Switch camera
+- Call duration
+- Completed call history
+- Missed call history
+- Rejected call history
+- Recent calls
+- Permission handling
+- Error handling
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- ZEGOCLOUD
+- permission_handler
+- image_picker
+- image
+
+## Project Structure
+
+lib/
+├── core/
+├── models/
+├── screens/
+├── services/
+└── widgets/
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in Android Studio or VS Code.
+3. Run:
+
+flutter pub get
+
+4. Configure Firebase.
+5. Configure ZEGOCLOUD credentials.
+6. Run:
+
+flutter run
+
+
+## APK
+
+Release APK is provided with the submission.
